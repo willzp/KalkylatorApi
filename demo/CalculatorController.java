@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Calculator  implements ErrorController {
+public class CalculatorController implements ErrorController {
 	
 	
 	plusCalculation plus = new plusCalculation();
